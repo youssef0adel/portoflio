@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en"  id="ht" data-bs-theme="">
+<head>
+    <link rel="icon" href="images/icon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youssef Adel</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="bd" class="">
+    <!-- Start NavBar -->
+    <nav class="d-flex justify-content-center position-sticky sticky-top">
+        <div class="nav-bar border border-3 border-white rounded-5 mt-0 mt-md-3">
+            <ul class="d-flex justify-content-center p-0 m-0 p-2 ">
+                <li>
+                    <title>Home</title>
+                    <a href="#home"><i class="fa-regular fa-home fa-xl text-white"></i></a>
+                </li>
+                <li>
+                    <a href="#about"><i class="fa-regular fa-user fa-xl text-white"></i></a>
+                </li>
+                <li>
+                    <a href="#skills"><i class="fa-regular fa-heart fa-xl text-white"></i></a>
+                </li>
+                <li>
+                    <a href="#portoflio"><i class="fa-regular fa-chart-bar fa-xl text-white"></i></a>
+                </li>
+                <li>
+                    <a href="#Contact"><i class="fa-regular fa-message fa-xl text-white"></i></a>
+                </li>
+                <li>
+                    <button onclick="btndark()" id="btn-dark" class="border-0 bg-transparent "><i class="fa-regular fa-xl fa-moon text-white"></i></button>
+                </li>
+                <li>
+                    <button onclick="btnlight()" id="btn-light" class="border-0 bg-transparent d-none  "><i class="fa-regular fa-xl fa-sun text-white "></i></button>  
+                </li>
+            </ul>
+        </div>
+    </nav>    
+    <!-- End NavBar -->
+
+     <!-- Start Home -->
+      <section id="home" class="home vh-100 mb-5" id="home">
+        <div class="d-flex flex-column justify-content-center align-items-center h-100">
+             <div class="container ">
+            <div class="row justify-content-center align-items-center flex-xl-row flex-column-reverse">
+                <div class="col-xl-6 p-5 pt-0 p-md-0 mt-5 mt-md-0  ">
+                    <div class="home-caption  text-start text-center text-md-start">
+                        <h2 class="fw-bold m-0">Hello, I'm</h2>
+                        <h1 class="name fw-bold m-0">Youssef Adel</h1>
+                        <h2 class="fw-bold m-0 mb-3">Front-End Developer</h2>
+                        <p class="fw-medium">Passionate Frontend Developer crafting modern and interactive user interfaces. I use the latest technologies like React.js and Bootstrab CSS to create seamless and elegant user experiences. Turning ideas into stunning websites and applications!</p>
+                        <div class="row">
+                            <div class="col-md-6 col-12">
+                        <button class="btn btn-primary px-3 w-100">Download CV <i class="fa-solid fa-download"></i></button>
+
+                            </div>
+                            <div class="col-md-6 col-12">
+                        <button id="contactButton" class="btn btn-hover border border-2 px-3 w-100 text-black ">Contact Me <i class="fa-regular fa-paper-plane"></i></button>
+
+                            </div>
+                        </div>
+                        <ul class="d-flex p-0 mt-5 justify-content-center justify-content-md-start ">
+                            <li class="p-2 ">
+                                <a class="border border-2 rounded-circle icon-hover-1" href=""><i class="fa-brands fa-github  "></i></a>
+                            </li >
+                            <li class="p-2">
+                                <a class="border border-2 rounded-circle icon-hover-2" href=""><i class="fa-brands fa-linkedin-in "></i></a>
+                            </li>
+                            <li class="p-2">
+                                <a class="border border-2 rounded-circle icon-hover-3" href=""><i class="fa-brands fa-facebook "></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-6 p-5 pb-0  p-md-0 d-none d-md-block">
+                    <div class="position-relative">
+                        <div class="home-image w-50  rounded-circle overflow-hidden m-auto border border-5">
+                            <img class="w-100" src="images/home-image.jpeg" alt="Personal image">
+                        </div>
+                        <div class="image-icon image-icon-1 rounded-circle text-center p-3 shadow"><i class="fa-solid fa-code fa-xl text-primary"></i></div>
+                        <div class="image-icon image-icon-2 rounded-circle text-center p-3 shadow"><i class="fa-solid fa-coffee fa-xl text-primary"></i></div>
+                        <div class="image-icon image-icon-3 rounded-circle text-center p-3 shadow"><i class="fa-solid fa-futbol fa-xl text-primary"></i></div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            </div>
+            <a class=" scroll text-center" href="#about">Scroll Down <br/> <i class="fa-solid fa-down-long text-primary"></i></a>
+        </div>
+       
+      </section>
+    <!-- End Home -->
+
+    <!-- Start About -->
+     <section id="about" class="about my-5">
+        <div class="about-title container text-center mt-5">
+            <h6 class="text-secondary fw-bold">Get To Know</h6>
+            <h2 class="text-primary fw-bold">About Me</h2>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center ">
+                <div class="col-md-3 p-md-0 p-5">
+                    <div class="inner w-100 bg-primary rounded-5">
+                        <img class="about-image w-100 rounded-5" src="images/about-image.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-9 p-5">
+                    <div class="inner">
+                        <div class="row  row-gap-3">
+                            <div class="text-center col-md-4 ">
+                                <div class="p-3 border border-1 rounded-3">
+                                <i class="fa-solid fa-medal text-warning"></i>
+                                <h5>Experience</h5>
+                                <p>1+ Working Years</p>
+                                </div>
+                                
+                            </div>
+                            <div class="text-center col-md-4 ">
+                                <div class="p-3 border border-1 rounded-3">
+                                    <i class="fa-solid fa-users text-warning"></i>
+                                <h5>Clients</h5>
+                                <p>0+ Wordwide</p>
+                                </div>
+                                
+                            </div>
+                            <div class="text-center col-md-4 ">
+                                <div class="p-3 border border-1 rounded-3">
+                                    <i class="fa-solid fa-file-shield text-warning"></i>
+                                    <h5>Projects</h5>
+                                    <p>10+ Compeleted</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="row p-3">
+                            <div class="inner border border-1 rounded-3">
+                                <div class="row  p-2">
+                                <div class="col-md-6"><h6 class="fw-bold">Name:</h6> <p class="text-second">Youssef Adel</p></div>
+                                <div class="col-md-6"><h6 class="fw-bold">Location:</h6> <p class="text-second">BeniSuef,Egypt</p></div>
+                                <div class="col-md-6"><h6 class="fw-bold">Email:</h6> <p class="text-second">youssefad888@gmail.com</p></div>
+                                <div class="col-md-6"><h6 class="fw-bold">Availability:</h6> <p class="text-second">Open to opportunities</p></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="inner">
+                                <button class="btn btn-primary w-100">Contact Me</button>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+     <!-- End About -->
+
+    <!-- Start Skills -->
+     <section id="skills" class="Skills my-5">
+        <div class="Skills-title text-center">
+            <h6 class="text-second fw-bold">What Skills I Have</h6>
+            <h2 class="text-primary fw-bold">My Experience</h2>
+        </div>
+        <div class="skills-bar my-4">
+            <div class="bar-1 bg-primary w-100 overflow-hidden">
+                <div class="inner-2 d-flex column-gap-5">
+                <img width="50px" src="images/API.svg" alt="">
+                <img width="50px" src="images/talwind.svg" alt="">
+                <img width="50px" src="images/download (5).svg" alt="">
+                <img width="50px" src="images/exspress.svg" alt="">
+                <img width="50px" src="images/react.svg" alt="">
+                <img width="50px" src="images/JS.svg" alt="">
+                <img width="50px" src="images/c++.svg" alt="">
+                <img width="50px" src="images/talwind.svg" alt="">
+                <img width="50px" src="images/github.svg" alt="">
+                <img width="50px" src="images/Tybe script.svg" alt="">
+                <img width="50px" src="images/CSS.svg" alt="">
+                <img width="50px" src="images/Html.svg" alt="">
+                <img width="50px" src="images/exspress.svg" alt="">
+                <img width="50px" src="images/API.svg" alt="">
+                <img width="50px" src="images/talwind.svg" alt="">
+                <img width="50px" src="images/download (5).svg" alt="">
+                <img width="50px" src="images/exspress.svg" alt="">
+                <img width="50px" src="images/react.svg" alt="">
+                <img width="50px" src="images/JS.svg" alt="">
+                <img width="50px" src="images/c++.svg" alt="">
+                <img width="50px" src="images/talwind.svg" alt="">
+                <img width="50px" src="images/github.svg" alt="">
+                <img width="50px" src="images/Tybe script.svg" alt="">
+                <img width="50px" src="images/CSS.svg" alt="">
+                <img width="50px" src="images/Html.svg" alt="">
+                <img width="50px" src="images/exspress.svg" alt="">
+                </div>
+                
+            </div>
+        </div>
+        <div class="skilss-info my-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="skill-item  text-center border border-1 p-3 rounded-3 h-100">
+                            <i class="fa-regular fa-pen-to-square fa-2xl text-primary mb-4"></i>
+                            <h5>Front-End Development</h5>
+                            <p>Building responsive and optimized web applications with modern frameworks.</p>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>TypeScript</span>
+                            <span>React</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="skill-item  text-center border border-1 p-3 rounded-3 h-100">
+                            <i class="fa-solid fa-code fa-2xl text-primary mb-4"></i>
+                            <h5>Back-End Integration</h5>
+                            <p>Connecting front-end applications to databases and back-end services.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="skill-item  text-center border border-1 p-3 rounded-3 h-100">
+                            <i class="fa-solid fa-layer-group fa-2xl text-primary mb-4"></i>
+                            <h5>Version Control & Deployment</h5>
+                            <p>Managing code collaboration and deploying applications efficiently.</p>
+                            <span>Git</span>
+                            <span>GitHub</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- End Skills -->
+
+    <!-- Start portoflio -->
+     <section id="portoflio" class="portoflio mt-5">
+        <div class="portoflio-title text-center mb-3">
+            <h6 class="text-second fw-bold">My Recent Work</h6>
+            <h2 class="fw-bold text-primary">My Projects</h2>
+        </div>
+        <div class="portoflio-projects">
+            <div class="container mb-3">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="portoflio-item p-4 border-1 border rounded-3 h-100 shadow-white shadow">
+                            <div class="portoflio-image p-3 border border-1 rounded-3">
+                                <img class="w-100" src="images/CRUD.png" alt="">
+                            </div>
+                            <div class="portoflio-caption  mt-3">
+                                <h3>CRUD Project</h3>
+                                <p>CRUD Operations Create, Read, Upadte, Delete</p>
+                                <span>JS</span>
+                                <span>BootStarb CSS</span>
+                                <span>JSON</span>
+                                <div class="mt-4">
+                                <button class="btn btn-primary "><i class="fa-brands fa-github"></i> GitHub</button>
+                                <button class="btn btn-hover border border-1 "><i class="fa-solid fa-share"></i> Live Demo</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="portoflio-item p-4 border-1 border rounded-3 h-100 shadow-white shadow">
+                            <div class="portoflio-image p-3 border border-1 rounded-3">
+                                <img class="w-100" src="images/Melify.png" alt="">
+                            </div>
+                            <div class="portoflio-caption  mt-3">
+                                <h3>Mealify Project</h3>
+                                <p>modern and interactive user interfaces</p>
+                                <span>Html</span>
+                                <span>BootStarb CSS</span>
+                                <div class="mt-4">
+                                <button class="btn btn-primary "><i class="fa-brands fa-github"></i> GitHub</button>
+                                <button class="btn btn-hover border border-1 "><i class="fa-solid fa-share"></i> Live Demo</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="portoflio-item p-4 border-1 border rounded-3 h-100 shadow-white shadow">
+                            <div class="portoflio-image p-3 border border-1 rounded-3">
+                                <img class="w-100" src="images/EDUPort.png" alt="">
+                            </div>
+                            <div class="portoflio-caption  mt-3">
+                                <h3>Eduport Project</h3>
+                                <p>modern and interactive user interfaces</p>
+                                <span>Html</span>
+                                <span>BootStarb CSS</span>
+                                <div class="mt-4">
+                                <button class="btn btn-primary "><i class="fa-brands fa-github"></i> GitHub</button>
+                                <button class="btn  border border-1 btn-hover "><i class="fa-solid fa-share"></i> Live Demo</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- End portoflio -->
+
+    <!-- Start Contact -->
+     <section id="Contact" class="Contact my-5">
+        <div class="Contact-title text-center my-5">
+            <h6 class="fw-bold text-second">Get In Touch</h6>
+            <h2 class="fw-bold text-primary">Contact Me</h2>
+        </div>
+        <div class="contact-Me">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="Contact-info col-md-6">
+                    <h3 class="fw-bold ">Contact Info <i class="fa-solid fa-address-card  "></i></h3>
+                        <div class="contact-item my-3">
+                            <div class="d-flex gap-2  align-items-center">
+                                <span class="p-3 rounded-circle"><i class="fa-regular fa-map fa-2xl"></i></span>
+                                <div class="">
+                                <h6>Location</h6>
+                                <p>BeniSuef, Egypt</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="contact-item my-3">
+                            <div class="d-flex gap-2  align-items-center">
+                                <span class="p-3 rounded-circle"><i class="fa-regular fa-envelope fa-2xl"></i></span>
+                                <div class="">
+                                <h6>Email</h6>
+                                <p>youssefad888@gmail.com</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="contact-item my-3">
+                            <div class="d-flex gap-2  align-items-center">
+                                <span class="p-3 rounded-circle"><i class="fa-solid fa-phone fa-2xl"></i></span>
+                                <div class="">
+                                <h6>Phone</h6>
+                                <p>+20 01277840267</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    <h3 class="fw-bold text-primary">Follow Me  <i class="fa-solid fa-user-plus"></i></h3>
+                    <ul class="d-flex p-0 mt-3">
+                            <li class="p-2">
+                                <a class="border border-2 rounded-circle icon-hover-1" href=""><i class="fa-brands fa-github  "></i></a>
+                            </li >
+                            <li class="p-2">
+                                <a class="border border-2 rounded-circle icon-hover-2" href=""><i class="fa-brands fa-linkedin-in "></i></a>
+                            </li>
+                            <li class="p-2">
+                                <a class="border border-2 rounded-circle icon-hover-3" href=""><i class="fa-brands fa-facebook "></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="contact-form col-md-6">
+                         <h3 class="fw-bold  mb-5">Send Me a Message <i class="fa-solid fa-comment-dots"></i></h3>
+                        <div class="row row-gap-5">
+                            <div class="position-relative col-md-12  "><input
+                                    class="w-100  rounded-2  p-2 shadow-white" type="text"
+                                    name="name" id="name"><label
+                                    class="position-absolute top-0 start-0 ms-5"
+                                    for="name">Name</label></div>
+                            <div class="position-relative col-md-12"><input
+                                    class="w-100  rounded-2 p-2 shadow-white"
+                                    type="email" name="email" id="email"><label
+                                    class="position-absolute top-0 start-0 ms-5 "
+                                    for="email">Your Email</label></div>
+                            <div class="position-relative col-md-12"><textarea
+                                    class="w-100  rounded-2 p-2 shadow-white"
+                                    name="Message"
+                                    id="Message"></textarea><label
+                                    class="position-absolute top-0 start-0 ms-5 "
+                                    for="Message">Your Message</label></div>
+                            <div class="col-12">
+                                <button class="btn btn-primary w-100"><i class="fa-solid fa-paper-plane"></i> Send a Message</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+     <!-- End Contact -->
+
+        <!-- Start Contact -->
+         <footer>
+            <div class="footer border border-1 rounded-top-5">
+                <div class="caption text-center p-3 ">
+                    <h5 class=" fw-bold">© 2025 <span class="p-0 bg-transparent fs-5 text-primary">Youssef Adel</span>. All rights reserved.</h5>
+                </div>
+            </div>
+         </footer>
+         <!-- End Contact -->
+
+      <script src="js/index.js"></script>   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    
+
+</body>
+</html>

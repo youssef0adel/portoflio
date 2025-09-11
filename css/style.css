@@ -1,0 +1,219 @@
+
+body::-webkit-scrollbar {
+  width: 10px;  
+}
+
+
+body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: linear-gradient(to right,#4e5bf2, #b44ede, #00c6ff);
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to right,#4e5bf2, #b44ede, #00c6ff);
+}
+
+.bg-main{
+    background-color: #111827;
+}
+.text-second
+{
+    color: #9ca3af;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    padding: 8px;
+}
+
+.shadow-white
+{
+      box-shadow: 0 5px 10px rgba(255, 255, 255, 0.6);
+
+}
+
+.nav-bar
+{
+    width: 300px;
+    background-image: linear-gradient(to right,#4e5bf2, #b44ede, #00c6ff);
+}
+.name
+{
+   background: linear-gradient(to right,#4e5bf2, #b44ede, #00c6ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70px;
+}
+.home-image
+{
+    filter: drop-shadow(1px 0px 10px white);
+}
+.image-icon
+{
+    width: 60px;
+    background-color: white;
+    position: absolute;
+    animation-name:image-anim;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-direction: alternate;
+}
+.image-icon-1
+{
+    left: 20%;
+    top: 50%;
+}
+.image-icon-2
+{
+    right: 35%;
+    top: 87%;
+}
+.image-icon-3
+{
+    right: 20%;
+    top: 10%;
+}
+@keyframes image-anim
+{
+    0%{transform: translateY(0px);}
+    100%{transform: translateY(-10px);}
+}
+.scroll
+{
+    animation-name:scroll-anim;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: .5s;
+    animation-direction: alternate;
+}
+
+@keyframes scroll-anim
+{
+    0%{transform: translateY(0px);}
+    100%{transform: translateY(8px);}
+}
+
+.about-image
+{
+    transform: rotate(10deg);
+    transition: .5s;
+}
+.about-image:hover
+{
+    transform: rotate(0);
+}
+.inner-2
+{
+    animation-name:bar-anim;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    
+    
+}
+
+
+
+@keyframes bar-anim
+{
+
+    0%{transform: translateX(100%);}
+    100%{transform: translateX(-100%);}
+}
+
+ span
+{
+    color: #0d6efd;
+    padding: 5px;
+    background-color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: small;
+}
+
+input
+{
+    border: 1px #EDEDED solid;
+    outline: none;
+    cursor: pointer;
+    
+
+}
+textarea
+{
+    border: 1px #EDEDED solid;
+    outline: none;
+    cursor: pointer;
+    
+
+
+}
+label
+{
+        transition: all .5s;
+        color: gray;
+
+}
+input:focus 
+{
+    border: 2px #0d6efd solid;
+    border-radius: 10px;
+}
+input:focus ~ label
+{
+    transform: translateY(-16px);
+    color: #0d6efd;
+    padding: 1px;
+    background-color: #111827;
+    border-radius: 10px;
+
+}
+textarea:focus ~ label
+{
+    transform: translateY(-16px);
+    color: #0d6efd;
+    padding: 1px;
+    background-color: #111827;
+    border-radius: 10px;
+
+}
+
+.btn-hover
+{
+    transition: .5s;
+    color: #0d6efd;
+    background-color: transparent;
+}
+
+.btn-hover:hover
+{
+    background-color: white;
+    color: rgb(98, 11, 211);
+}
+
+.icon-hover-1,.icon-hover-2,.icon-hover-3
+{
+    transition: .5s;
+}
+.icon-hover-1:hover
+{
+    background-color: black;
+}
+.icon-hover-2:hover
+{
+    background-color: #0d6efd;
+}
+.icon-hover-3:hover
+{
+    background-color: #084eb7;
+}
