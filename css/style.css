@@ -43,7 +43,7 @@ a
 
 .nav-bar
 {
-    width: 300px;
+    
     background-image: linear-gradient(to right,#4e5bf2, #b44ede, #00c6ff);
 }
 .name
@@ -57,6 +57,72 @@ a
 {
     filter: drop-shadow(1px 0px 10px white);
 }
+
+
+.hover-scale
+{
+    transition: 1s;
+}
+
+.hover-scale:hover
+{
+    transform: scale(1.05);
+}
+
+.edu-item
+{
+   box-shadow: 0 5px 10px #0d6efd; 
+}
+
+.line::after
+{
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 600px;
+    background-color: #0d6efd;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    box-shadow: 0 5px 10px #084eb7;
+}
+.ball
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #0d6efd;
+    box-shadow: 0 5px 20px #084eb7;
+    position: absolute;
+    z-index: 1;
+    
+
+}
+.ball-1
+{
+    top: 4%;
+    left: 49.4%;
+}
+.ball-2
+{
+    top: 50%;
+    left: 49.4%;
+}
+
+@media( max-width:768px)
+{
+    .line::after
+    {
+    top: 0%;
+    left: 2%;   
+    }
+    .ball
+    {
+    
+    left: 0%;   
+    }
+}
+
 .image-icon
 {
     width: 60px;
@@ -105,7 +171,7 @@ a
 
 .about-image
 {
-    transform: rotate(10deg);
+    transform: rotate(8deg);
     transition: .5s;
 }
 .about-image:hover
