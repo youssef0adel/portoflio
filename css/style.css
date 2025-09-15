@@ -41,6 +41,11 @@ a
 
 }
 
+.home
+{
+    height: 100vh;
+}
+
 .nav-bar
 {
     
@@ -282,4 +287,22 @@ textarea:focus ~ label
 .icon-hover-3:hover
 {
     background-color: #084eb7;
+}
+
+@media(max-width:1024px)
+{
+    .home
+    {
+        height: auto;
+    }
+    .hover-scale:hover
+    {
+        transform: scale(1);
+    }
+   .image-icon-2
+{
+    right: 25%;
+    top: 75%;
+}
+
 }
