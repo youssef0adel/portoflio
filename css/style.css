@@ -21,6 +21,9 @@ body::-webkit-scrollbar-thumb:hover {
 .bg-main{
     background-color: #111827;
 }
+.text-main{
+    color: #111827;
+}
 .text-second
 {
     color: #9ca3af;
@@ -217,6 +220,7 @@ input
     border: 1px #EDEDED solid;
     outline: none;
     cursor: pointer;
+    color: white;
     
 
 }
@@ -242,19 +246,18 @@ input:focus
 }
 input:focus ~ label
 {
-    transform: translateY(-16px);
+    transform: translateX(-16px);
     color: #0d6efd;
-    padding: 1px;
-    background-color: #111827;
+    padding: 5px;
     border-radius: 10px;
 
 }
 textarea:focus ~ label
 {
-    transform: translateY(-16px);
+    transform: translateX(-16px);
     color: #0d6efd;
     padding: 1px;
-    background-color: #111827;
+    
     border-radius: 10px;
 
 }
@@ -304,5 +307,52 @@ textarea:focus ~ label
     right: 25%;
     top: 75%;
 }
+    
+}
+@media(min-width:1024px)
+{
+    #homeCaption
+{
+    transition: 1s;
+    transform: translateX(-30rem);
+}
+    #homeImage
+    {
+        transition: 1s;
+        transform: translateX(30rem);
+    }
+    #aboutCaption
+    {
+        transition: 2s;
+        transform: translateX(70rem);
+    }
+    #aboutImage
+    {
+        transition: 1s;
+        transform: translateX(-30rem);
+    }
+    #edu
+    {
+       transition: 2s;
+        transform: translateX(-90rem); 
+    }
+    #sk1
+    {
+       transition: 2s;
+        transform: translateX(-40rem); 
+    }
+    #sk2
+    {
+       transition: 2s;
+        transform:scale(0);
+    }
+    #sk3
+    {
+       transition: 2s;
+        transform: translateX(40rem); 
+    }
+  
+
 
 }
+
